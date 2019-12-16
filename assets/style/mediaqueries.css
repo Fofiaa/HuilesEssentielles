@@ -1,0 +1,102 @@
+@media all and (max-width: 480px) {
+    #banner {
+        height: 50vh;
+        font-size: 2rem;
+        background-position-x: right;
+
+    }
+
+    #letterS {
+        font-size: 3rem;
+        color: rgb(14, 177, 55);
+    }
+
+    #navbar {
+
+        background-color: #333333;
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        color: white;
+        font-size: 3vw;
+    }
+
+    .navButton {
+        margin-left: 3vw;
+        margin-right: 3vw;
+    }
+
+    #searchBut {
+
+        width: 40vw;
+    }
+
+    #presentation {
+        display: none;
+    }
+
+    #products {
+
+        flex-direction: column;
+    }
+
+    .card {
+
+        width: auto;
+
+
+    }
+
+    .cardImage {
+
+        width: 80%;
+
+    }
+
+    .imgSize {
+        width: 80%;
+        height: auto;
+    }
+
+    .cardText {
+
+        width: 90%;
+        background-color: white;
+        margin: auto;
+        text-align: left;
+
+    }
+
+    .boutonStyle {
+
+        padding: 2vw;
+
+    }
+
+    #social {
+
+        font-size: 4vw;
+
+    }
+
+    .icon {
+        width: 4.5vw;
+
+    }
+
+    #siteMap {
+        width: 40%;
+        font-size: 3vw;
+
+    }
+
+    #legal {
+        width: 40%;
+
+        font-size: 3vw;
+
+    }
+}
